@@ -3,6 +3,8 @@
 --------------------------------------------------------------*/
 
 @import "styleaccordion.css";
+@import "styletime.css";
+
 
 body {
   background: #fff;
@@ -303,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "\f107";
   position: absolute;
   right: 15px;
-  font-family: FontAwesome;
+  font-family: Quadrat;
   font-style: normal;
   font-weight: normal;
 }
@@ -539,7 +541,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
+  background: url(../img/fullwindow.png) center top no-repeat;
   margin-bottom: 10px;
 }
 
@@ -617,6 +619,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0 60px 0;
 }
 
+
+/*
 #facts .counters span {
   font-size: 48px;
   display: block;
@@ -629,6 +633,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
+-*/
 
 /* Services Section
 --------------------------------*/
@@ -692,6 +697,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
+  color: #000;
 }
 
 #services .title a {
@@ -702,6 +708,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
 }
+
+/* Popup box BEGIN */
+
 
 /* Call To Action Section
 --------------------------------*/
